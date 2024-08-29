@@ -7,11 +7,11 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-  Link,
 } from "@nextui-org/react";
 import Image from "next/image";
 import Logo from "@/assets/logo.png";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -33,7 +33,7 @@ export default function Nav() {
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-white">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-background">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -47,18 +47,17 @@ export default function Nav() {
       </NavbarContent>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {menuItems.map((item, index) => {
-          const path = createPath(item);
-          const isActive = router.pathname === path;
+          const path: string = createPath(item);
+          const isActive: boolean = router.pathname === path;
 
           return (
             <NavbarItem key={`${item}-${index}`}>
               <Link
-                color="foreground"
                 className={`w-full text-base font-medium hover:text-primary hover:underline hover:underline-offset-4 ${
-                  isActive ? "text-primary underline underline-offset-4" : ""
+                  isActive &&
+                  "text-primary underline underline-offset-4 font-semibold"
                 }`}
                 href={path}
-                size="lg"
               >
                 {item}
               </Link>
@@ -67,18 +66,24 @@ export default function Nav() {
         })}
       </NavbarContent>
       <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
-              color="foreground"
-              className="w-full font-medium hover:text-primary hover:underline hover:underline-offset-4"
-              href={createPath(item)}
-              size="lg"
-            >
-              {item}
-            </Link>
-          </NavbarMenuItem>
-        ))}
+        {menuItems.map((item, index) => {
+          const path: string = createPath(item);
+          const isActive: boolean = router.pathname === path;
+
+          return (
+            <NavbarMenuItem key={`${item}-${index}`}>
+              <Link
+                className={`w-full text-base font-medium hover:text-primary hover:underline hover:underline-offset-4 ${
+                  isActive &&
+                  "text-primary underline underline-offset-4 font-bold"
+                }`}
+                href={path}
+              >
+                {item}
+              </Link>
+            </NavbarMenuItem>
+          );
+        })}
       </NavbarMenu>
     </Navbar>
   );

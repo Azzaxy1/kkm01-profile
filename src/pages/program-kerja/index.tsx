@@ -2,8 +2,8 @@ import React from "react";
 
 const ProgramKerjaPage = () => {
   return (
-    <section className="min-h-screen flex justify-center items-center bg-secondary">
-      <h1 className="text-white">ProgramKerjaPage</h1>
+    <section className="pages flex justify-center items-center">
+      <h1 className="">Program Kerja Page</h1>
     </section>
   );
 };
