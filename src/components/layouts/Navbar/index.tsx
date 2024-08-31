@@ -33,11 +33,11 @@ export default function Nav() {
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-background">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-secondary">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="sm:hidden text-white"
         />
         <NavbarBrand>
           <Link href="/">
@@ -53,7 +53,7 @@ export default function Nav() {
           return (
             <NavbarItem key={`${item}-${index}`}>
               <Link
-                className={`w-full text-base font-medium hover:text-primary hover:underline hover:underline-offset-4 ${
+                className={`w-full text-base text-white font-medium hover:text-primary hover:underline hover:underline-offset-4 ${
                   isActive &&
                   "text-primary underline underline-offset-4 font-semibold"
                 }`}

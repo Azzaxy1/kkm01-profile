@@ -2,17 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  /* border: 1px solid black; */
-  margin: 0;
-  padding: 0;
-}
-
 @layer components {
   .pages {
     @apply bg-white min-h-screen;
   }
 }
+
 .custom-shape-divider-bottom-1724919880 {
   position: absolute;
   bottom: 0;
