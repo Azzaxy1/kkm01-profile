@@ -15,6 +15,8 @@ import PlangSampah from "@/assets/images/program-kerja/plang-sampah.jpg";
 import TongSampah from "@/assets/images/program-kerja/tong-sampah.jpg";
 import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
 
+// TODO : Foto Les Komputer dan foto di hero section slider
+
 const images = {
   UMKM,
   Stunting,

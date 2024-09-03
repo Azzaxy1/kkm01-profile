@@ -7,7 +7,7 @@ const HeroSection = () => {
     <>
       <section className="relative min-h-[90vh] bg-white grid md:py-0 items-center grid-cols-1 gap-4 px-6 lg:px-16 2xl:px-72  place-items-center lg:grid-cols-2">
         <article className="flex flex-col mt-10">
-          <h1 className="text-2xl mb-2 uppercase text-secondary font-semibold sm:text-3xl md:text-4xl 2xl:text-5xl ">
+          <h1 className="text-2xl mb-2 uppercase text-primary font-semibold sm:text-3xl md:text-4xl 2xl:text-5xl ">
             KKM 01 Desa Panyabrangan
           </h1>
           <h2 className="text-sm font-normal md:text-lg 2xl:text-xl ">
@@ -25,23 +25,6 @@ const HeroSection = () => {
           </p>
         </article>
         <article className="relative flex w-full h-full">
-          {/* <Image
-            src={Blob}
-            alt="shape"
-            width={300}
-            className="absolute bottom-[-320px] right-[-330px] hidden md:block w-[280px] sm:w-[330px] md:w-[380px] lg:w-[1200px] 2xl:w-[630px]"
-          /> */}
-          {/* <svg
-            viewBox="0 0 200 200"
-            xmlns="http://www.w3.org/2000/svg"
-            className="absolute bottom-[-320px] right-[-330px] hidden md:block w-[280px] sm:w-[330px] md:w-[380px] lg:w-[1200px] 2xl:w-[630px]"
-          >
-            <path
-              fill="#675527"
-              d="M33.9,20.5C20.9,42.1,-28.6,43.6,-40.3,22.7C-52,1.8,-26,-41.4,-1.3,-42.2C23.4,-42.9,46.9,-1.1,33.9,20.5Z"
-              transform="translate(100 100)"
-            />
-          </svg> */}
           <div className="flex w-full flex-col  justify-center items-center">
             <Image
               src={images.Group1}
@@ -49,15 +32,9 @@ const HeroSection = () => {
               width={280}
               className="absolute md:relative bottom-0 z-10 w-[440px] md:w-[330px] lg:w-[550px] 2xl:w-[550px]"
             />
-            <h4 className="absolute md:relative z-20 bottom-36 sm:bottom-0 text-primary font-semibold text-3xl sm:text-4xl">
+            <h4 className="absolute md:relative z-20 bottom-36 sm:bottom-0 text-secondary font-semibold text-3xl sm:text-4xl">
               Group Team One
             </h4>
-            {/* <Image
-              src={Grup1}
-              alt="hero"
-              width={280}
-              className="absolute bottom-0 right-0 z-10 w-[440px] md:w-[330px] lg:w-[600px] 2xl:w-[550px]"
-            /> */}
           </div>
         </article>
         <div className="custom-shape-divider-bottom-1724919880 block md:hidden">

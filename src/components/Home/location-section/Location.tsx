@@ -4,7 +4,7 @@ import ListLocation from "./ListLocation";
 const LocationSection = () => {
   return (
     <div className="relative text-center md:py-16 px-6 py-16 lg:px-16 2xl:px-72 bg-background">
-      <h1 className="text-3xl  sm:text-4xl mb-6 font-medium text-secondary">
+      <h1 className="text-3xl  sm:text-4xl mb-6 font-medium text-primary">
         Lokasi Penempatan
       </h1>
       <ListLocation />
