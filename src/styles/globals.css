@@ -4,9 +4,13 @@
 
 @layer components {
   .pages {
-    @apply bg-white min-h-screen;
+    @apply bg-white px-6 md:px-16 2xl:px-72 min-h-screen;
   }
 }
+
+/* * {
+  border: 1px solid black;
+} */
 
 .custom-shape-divider-bottom-1724919880 {
   position: absolute;

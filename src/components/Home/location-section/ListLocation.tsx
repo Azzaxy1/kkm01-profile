@@ -1,9 +1,7 @@
 import React from "react";
-import LocationIcon from "@/assets/2.png";
 import Image from "next/image";
-import Maps from "@/assets/maps1.jpg";
-import Calender from "@/assets/calender.png";
 import { motion } from "framer-motion";
+import images from "@/assets/image";
 
 const ListLocation = () => {
   return (
@@ -15,7 +13,7 @@ const ListLocation = () => {
           onHoverEnd={(e) => {}}
         >
           <Image
-            src={LocationIcon}
+            src={images.LocationIcon}
             alt="Location Icon"
             width={100}
             className="w-[180px]"
@@ -31,7 +29,12 @@ const ListLocation = () => {
         onHoverStart={(e) => {}}
         onHoverEnd={(e) => {}}
       >
-        <Image src={Maps} alt="Maps Image" width={100} className="w-[200px]" />
+        <Image
+          src={images.Maps}
+          alt="Maps Image"
+          width={100}
+          className="w-[200px]"
+        />
       </motion.div>
       <article className="flex justify-center z-20 flex-col items-center">
         <motion.div
@@ -40,7 +43,7 @@ const ListLocation = () => {
           onHoverEnd={(e) => {}}
         >
           <Image
-            src={Calender}
+            src={images.Calender}
             alt="Calender"
             width={100}
             className="w-[180px]"

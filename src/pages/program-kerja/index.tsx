@@ -1,10 +1,10 @@
-import React from "react";
+import ProgramKerja from "@/components/ProgramKerja";
 
 const ProgramKerjaPage = () => {
   return (
-    <section className="pages flex justify-center items-center">
-      <h1 className="">Program Kerja Page</h1>
-    </section>
+    <div>
+      <ProgramKerja />
+    </div>
   );
 };
 

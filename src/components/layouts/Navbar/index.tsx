@@ -9,9 +9,9 @@ import {
   NavbarMenuItem,
 } from "@nextui-org/react";
 import Image from "next/image";
-import Logo from "@/assets/logo.png";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import images from "@/assets/image";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -33,7 +33,7 @@ export default function Nav() {
   };
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-secondary">
+    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-secondary sticky">
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -41,7 +41,7 @@ export default function Nav() {
         />
         <NavbarBrand>
           <Link href="/">
-            <Image src={Logo} alt="Logo KKM" width={60} />
+            <Image src={images.Logo} alt="Logo KKM" width={60} />
           </Link>
         </NavbarBrand>
       </NavbarContent>

@@ -1,7 +1,5 @@
+import images from "@/assets/image";
 import Image from "next/image";
-
-import Grup1 from "@/assets/group1.png";
-import Blob from "@/assets/shapes.svg";
 import React from "react";
 
 const HeroSection = () => {
@@ -46,7 +44,7 @@ const HeroSection = () => {
           </svg> */}
           <div className="flex w-full flex-col  justify-center items-center">
             <Image
-              src={Grup1}
+              src={images.Group1}
               alt="hero"
               width={280}
               className="absolute md:relative bottom-0 z-10 w-[440px] md:w-[330px] lg:w-[550px] 2xl:w-[550px]"
