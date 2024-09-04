@@ -15,6 +15,7 @@ import PlangSampah from "@/assets/images/program-kerja/plang-sampah.jpg";
 import TongSampah from "@/assets/images/program-kerja/tong-sampah.jpg";
 import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
 import FotoBersama from "@/assets/images/foto-bersama.jpg";
+import LesKomputer from "@/assets/images/program-kerja/les-komputer.jpg";
 
 // TODO : Foto Les Komputer dan foto di hero section slider
 
@@ -34,6 +35,7 @@ const images = {
   PlangSampah,
   TongSampah,
   PetaDesa,
+  LesKomputer,
 };
 
 export default images;

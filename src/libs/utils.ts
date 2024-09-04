@@ -29,7 +29,7 @@ const ProgramKerjaUnggulan: ProgramKerjaType = [
 const ProgramKerjaLainnya: ProgramKerjaType = [
   {
     id: 1,
-    image: images.Perpustakaan,
+    image: images.LesKomputer,
     title: "Les Private : Les Komputer",
     description:
       'Program kerja "Les Private: Les Komputer" bertujuan untuk meningkatkan keterampilan komputer dasar masyarakat Desa Panyabrangan, khususnya siswa sekolah. Program ini menyediakan les privat yang berfokus pada pengenalan Microsoft Office, internet, dan aplikasi komputer lain yang relevan. Dengan pendekatan personal, les ini diharapkan dapat membantu peserta menguasai keterampilan digital yang penting untuk menunjang pendidikan dan kehidupan sehari-hari di era teknologi.',
