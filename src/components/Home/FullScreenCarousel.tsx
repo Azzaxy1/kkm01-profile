@@ -3,13 +3,16 @@ import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider1 from "@/assets/images/kantor-desa.jpg";
 import Slider2 from "@/assets/images/bendung-lama.jpg";
+import Slider4 from "@/assets/images/foto-bersama.jpg";
+import Slider5 from "@/assets/images/foto-bersama2.jpg";
 import Slider3 from "@/assets/images/bendungan-baru.jpg";
+import Slider6 from "@/assets/images/foto-bersama3.jpg";
+import Slider7 from "@/assets/images/foto-bersama4.jpg";
 import { motion } from "framer-motion";
 import { useFollowPointer } from "./UseFollowPointer";
 
-const images = [Slider1, Slider2, Slider3];
+const images = [Slider2, Slider3, Slider4, Slider5, Slider6, Slider7];
 
 const FullScreenCarousel: React.FC = () => {
   const ref = useRef(null);

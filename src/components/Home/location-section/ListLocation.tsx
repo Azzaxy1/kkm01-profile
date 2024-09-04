@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import images from "@/assets/image";
 
 const ListLocation = () => {

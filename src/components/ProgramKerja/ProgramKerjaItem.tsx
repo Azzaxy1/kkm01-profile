@@ -24,12 +24,6 @@ const ProgramKerjaItem: React.FC<ProgramKerjaItemProps> = ({ item, index }) => {
         </h4>
         <Divider className="my-2" />
         <p className="line-clamp-3 md:line-clamp-4">{item.description}</p>
-        {/* <Truncate
-          lines={3}
-          ellipsis={<span className="text-secondary">...</span>}
-        >
-          {item.description}
-        </Truncate> */}
         <Link
           showAnchorIcon
           href={`/program-kerja/${item.id}`}

@@ -14,6 +14,7 @@ import HutRI from "@/assets/images/program-kerja/hut-ri.png";
 import PlangSampah from "@/assets/images/program-kerja/plang-sampah.jpg";
 import TongSampah from "@/assets/images/program-kerja/tong-sampah.jpg";
 import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
+import FotoBersama from "@/assets/images/foto-bersama.jpg";
 
 // TODO : Foto Les Komputer dan foto di hero section slider
 
@@ -28,6 +29,7 @@ const images = {
   Maps,
   Calender,
   Logo,
+  FotoBersama,
   HutRI,
   PlangSampah,
   TongSampah,
