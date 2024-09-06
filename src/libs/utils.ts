@@ -1,5 +1,14 @@
 import images from "@/assets/image";
-import { ProgramKerjaType } from "@/type/ProgramKerja";
+import { ListAnggotaType, ProgramKerjaType } from "@/type/ProgramKerja";
+
+const listAnggota: ListAnggotaType = [
+  {
+    id: 1,
+    name: "Dr. Ade Sumiardi, S.Si., M.Si",
+    image: images.WakilKetua,
+    major: "Teknik Informatika",
+  },
+];
 
 const ProgramKerjaUnggulan: ProgramKerjaType = [
   {
@@ -80,4 +89,4 @@ const ProgramKerjaLainnya: ProgramKerjaType = [
   },
 ];
 
-export { ProgramKerjaUnggulan, ProgramKerjaLainnya };
+export { ProgramKerjaUnggulan, ProgramKerjaLainnya, listAnggota };

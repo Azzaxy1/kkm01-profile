@@ -7,4 +7,13 @@ export type ProgramKerjaItem = {
   description: string;
 };
 
+export type ListAnggotaItem = {
+  id: number;
+  image: StaticImageData;
+  name: string;
+  major?: string;
+};
+
+export type ListAnggotaType = ListAnggotaItem[];
+
 export type ProgramKerjaType = ProgramKerjaItem[];

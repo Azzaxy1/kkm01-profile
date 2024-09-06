@@ -17,7 +17,8 @@ import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
 import FotoBersama from "@/assets/images/foto-bersama.jpg";
 import LesKomputer from "@/assets/images/program-kerja/les-komputer.jpg";
 
-// TODO : Foto Les Komputer dan foto di hero section slider
+import Azis from "@/assets/images/struktur-anggota/Azis.png";
+import Rifki from "@/assets/images/struktur-anggota/sakoi.png";
 
 const images = {
   UMKM,
@@ -36,6 +37,8 @@ const images = {
   TongSampah,
   PetaDesa,
   LesKomputer,
+  Azis,
+  Rifki,
 };
 
 export default images;
