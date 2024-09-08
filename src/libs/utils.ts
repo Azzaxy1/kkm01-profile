@@ -78,7 +78,7 @@ const ProgramKerjaLainnya: ProgramKerjaType = [
     title:
       "Memeriahkan Peringatan Hari Kemerdekaan Indonesia ke-79 dengan kebersamaan dan inspirasi",
     description:
-      'Program "Memeriahkan Peringatan Hari Kemerdekaan Indonesia ke-79" bertujuan untuk merayakan hari bersejarah ini dengan penuh semangat kebersamaan dan inspirasi di Desa Panyabrangan. Kegiatan ini melibatkan berbagai lomba, upacara bendera, dan acara hiburan yang mengajak seluruh warga untuk turut serta dalam semangat kemerdekaan. Melalui acara ini, diharapkan tercipta rasa persatuan dan cinta tanah air yang lebih kuat, serta menginspirasi warga untuk terus berkontribusi bagi kemajuan bangsa. Mari rayakan kemerdekaan dengan semangat gotong royong dan kebanggaan sebagai bangsa Indonesia!',
+      'Program kerja "Memeriahkan Peringatan Hari Kemerdekaan Indonesia ke-79" bertujuan untuk merayakan hari bersejarah ini dengan penuh semangat kebersamaan dan inspirasi di Desa Panyabrangan. Kegiatan ini melibatkan berbagai lomba, upacara bendera, dan acara hiburan yang mengajak seluruh warga untuk turut serta dalam semangat kemerdekaan. Melalui acara ini, diharapkan tercipta rasa persatuan dan cinta tanah air yang lebih kuat, serta menginspirasi warga untuk terus berkontribusi bagi kemajuan bangsa. Mari rayakan kemerdekaan dengan semangat gotong royong dan kebanggaan sebagai bangsa Indonesia!',
   },
   {
     id: 17849534563,

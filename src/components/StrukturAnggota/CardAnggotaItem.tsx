@@ -29,7 +29,7 @@ const CardAnggotaItem: React.FC<CardAnggotaItemProps> = ({
         </h1>
       </CardHeader>
       <CardBody className="flex justify-center items-center">
-        <Image src={images} alt="Azis" width={200} />
+        <Image src={images} alt={name} width={200} />
       </CardBody>
       <CardFooter className="flex flex-col">
         <h2 className="text-sm uppercase sm:text-base text-primary font-semibold">
