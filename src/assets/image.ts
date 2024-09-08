@@ -15,6 +15,7 @@ import TongSampah from "@/assets/images/program-kerja/tong-sampah.jpg";
 import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
 import FotoBersama from "@/assets/images/foto-bersama.jpg";
 import LesKomputer from "@/assets/images/program-kerja/les-komputer.jpg";
+import Gapura from "@/assets/images/program-kerja/gapura.jpg";
 
 import PaAde from "@/assets/images/struktur-anggota/pa-ade.png";
 import Jaka from "@/assets/images/struktur-anggota/jaka.png";
@@ -58,6 +59,7 @@ const images = {
   PaAde,
   Della,
   Daus,
+  Gapura,
   Rija,
   Dita,
   Rico,

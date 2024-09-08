@@ -56,7 +56,7 @@ const Footer = () => {
           </div>
         </article>
       </section>
-      <section className="bg-secondary py-4 px-20 text-white text-center font-normal">
+      <section className="bg-secondary py-4 px-14 md:px-20 text-white text-center font-normal">
         <h1 className="text-white text-sm md:text-base text-center font-normal">
           © {new Date().getFullYear()} KKM 01 - Desa Panyabrangan.
         </h1>

@@ -5,7 +5,7 @@ import React from "react";
 
 const TentangKami = () => {
   return (
-    <Card className="mb-8 mx-5 p-6">
+    <Card className="mb-8 p-4" radius="sm">
       <CardHeader className="flex justify-center">
         <Image src={images.FotoBersama} alt="Kelompok 1" width={500} />
       </CardHeader>

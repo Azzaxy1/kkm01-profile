@@ -1,4 +1,3 @@
-import images from "@/assets/image";
 import {
   Card,
   CardBody,
@@ -33,7 +32,7 @@ const CardAnggotaItem: React.FC<CardAnggotaItemProps> = ({
         <Image src={images} alt="Azis" width={200} />
       </CardBody>
       <CardFooter className="flex flex-col">
-        <h2 className="text-base sm:text-lg text-primary font-semibold">
+        <h2 className="text-sm uppercase sm:text-base text-primary font-semibold">
           {name}
         </h2>
         <Divider className="my-1 bg-gray-400" />
