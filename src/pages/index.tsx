@@ -6,7 +6,7 @@ import ProfileDesa from "@/components/Home/ProfileDesa";
 export default function Home() {
   return (
     <main>
-      <FullScreenCarousel />
+      {/* <FullScreenCarousel /> */}
       <HeroSection />
       <LocationSection />
       <ProfileDesa />

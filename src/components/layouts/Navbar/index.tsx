@@ -40,8 +40,14 @@ export default function Nav() {
           className="sm:hidden text-white"
         />
         <NavbarBrand>
-          <Link href="/">
+          <Link href="/" className="flex justify-center items-center gap-2">
             <Image src={images.Logo} alt="Logo KKM" width={60} />
+            <Image
+              src={images.Unbaja}
+              alt="Logo Unbaja"
+              width={55}
+              className="mb-2"
+            />
           </Link>
         </NavbarBrand>
       </NavbarContent>
