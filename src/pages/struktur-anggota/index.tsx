@@ -12,15 +12,17 @@ const StrukturAnggotaPage = () => {
         </h1>
       </header>
       <article className="flex mb-8 justify-center items-center">
-        <CardAnggotaItem
-          name="Dr. Ade Sumiardi, S.Si., M.Si"
-          images={images.PaAde}
-          position="DPL"
-        />
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Dr. Ade Sumiardi, S.Si., M.Si"
+            images={images.PaAde}
+            position="DPL"
+          />
+        </div>
       </article>
       <Divider className="h-1 bg-background" />
       <article className="flex my-8 justify-center gap-8 md:gap-0 md:justify-between items-center flex-wrap">
-        <div className="order-3 md:order-1">
+        <div className="order-3 md:order-1" data-aos="flip-right">
           <CardAnggotaItem
             name="Epi Safitri"
             images={images.Epi}
@@ -28,7 +30,7 @@ const StrukturAnggotaPage = () => {
             major="Teknik Informatika"
           />
         </div>
-        <div className="order-1 md:order-2">
+        <div className="order-1 md:order-2" data-aos="flip-left">
           <CardAnggotaItem
             name="M. Jaka Agus Setiawan"
             images={images.Jaka}
@@ -36,7 +38,7 @@ const StrukturAnggotaPage = () => {
             major="Teknik Informatika"
           />
         </div>
-        <div className="order-2 md:order-3">
+        <div className="order-2 md:order-3" data-aos="flip-right">
           <CardAnggotaItem
             name="Abdurrohman Azis"
             images={images.Azis}
@@ -44,7 +46,7 @@ const StrukturAnggotaPage = () => {
             major="Teknik Informatika"
           />
         </div>
-        <div className="order-4 md:order-4">
+        <div className="order-4 md:order-4" data-aos="flip-left">
           <CardAnggotaItem
             name="Siti Haniawati"
             images={images.Heni}
@@ -55,78 +57,100 @@ const StrukturAnggotaPage = () => {
       </article>
       <Divider className="h-1 bg-background" />
       <article className="flex my-8  justify-around gap-8 md:gap-0 items-center flex-wrap">
-        <CardAnggotaItem
-          name="Ahmad Ali Firdaus"
-          images={images.Daus}
-          position="Divisi Acara"
-          major="Teknik Industri"
-        />
-        <CardAnggotaItem
-          name="Della Maulia Putri"
-          images={images.Della}
-          position="Divisi Acara"
-          major="Pendidikan Akuntansi"
-        />
-        <CardAnggotaItem
-          name="Ihsanuddin Adi Pangestu"
-          images={images.Ihsan}
-          position="Divisi Acara"
-          major="Teknik Informatika"
-        />
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Ahmad Ali Firdaus"
+            images={images.Daus}
+            position="Divisi Acara"
+            major="Teknik Industri"
+          />
+        </div>
+        <div data-aos="flip-left">
+          <CardAnggotaItem
+            name="Della Maulia Putri"
+            images={images.Della}
+            position="Divisi Acara"
+            major="Pendidikan Akuntansi"
+          />
+        </div>
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Ihsanuddin Adi Pangestu"
+            images={images.Ihsan}
+            position="Divisi Acara"
+            major="Teknik Informatika"
+          />
+        </div>
       </article>
       <Divider className="h-1 bg-background" />
       <article className="flex my-8 justify-center md:justify-between gap-8 md:gap-0 items-center flex-wrap">
-        <CardAnggotaItem
-          name="Rija Baihaqi"
-          images={images.Rija}
-          position="Divisi PDD"
-          major="Pendidikan Pancasila"
-        />
-        <CardAnggotaItem
-          name="Dita Della"
-          images={images.Dita}
-          position="Divisi PDD"
-          major="Sistem Informasi"
-        />
-        <CardAnggotaItem
-          name="Rico Triyantara"
-          images={images.Rico}
-          position="Divisi PDD"
-          major="Teknik Industri"
-        />
-        <CardAnggotaItem
-          name="Aditya Wardhono P"
-          images={images.Adit}
-          position="Divisi PDD"
-          major="Teknik Industri"
-        />
+        <div data-aos="flip-left">
+          <CardAnggotaItem
+            name="Rija Baihaqi"
+            images={images.Rija}
+            position="Divisi PDD"
+            major="Pendidikan Pancasila"
+          />
+        </div>
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Dita Della"
+            images={images.Dita}
+            position="Divisi PDD"
+            major="Sistem Informasi"
+          />
+        </div>
+        <div data-aos="flip-left">
+          <CardAnggotaItem
+            name="Rico Triyantara"
+            images={images.Rico}
+            position="Divisi PDD"
+            major="Teknik Industri"
+          />
+        </div>
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Aditya Wardhono P"
+            images={images.Adit}
+            position="Divisi PDD"
+            major="Teknik Industri"
+          />
+        </div>
       </article>
       <Divider className="h-1 bg-background" />
       <article className="flex my-8 justify-center md:justify-between gap-8 md:gap-0 flex-wrap">
-        <CardAnggotaItem
-          name="Aji Eka Saputra"
-          images={images.Aji}
-          position="Divisi Humas"
-          major="Teknik Sipil"
-        />
-        <CardAnggotaItem
-          name="Rifqi Maulana"
-          images={images.Rifki}
-          position="Divisi Humas"
-          major="Teknik Sipil"
-        />
-        <CardAnggotaItem
-          name="Sandy Ruliandy"
-          images={images.Sandy}
-          position="Divisi Humas"
-          major="Sistem Informasi"
-        />
-        <CardAnggotaItem
-          name="Fadly Oktapriadi"
-          images={images.Fadly}
-          position="Divisi Humas"
-          major="Teknik Informatika"
-        />
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Aji Eka Saputra"
+            images={images.Aji}
+            position="Divisi Humas"
+            major="Teknik Sipil"
+          />
+        </div>
+        <div data-aos="flip-left">
+          <CardAnggotaItem
+            name="Rifqi Maulana"
+            images={images.Rifki}
+            position="Divisi Humas"
+            major="Teknik Sipil"
+          />
+        </div>
+        <div data-aos="flip-right">
+          <CardAnggotaItem
+            name="Sandy Ruliandy"
+            images={images.Sandy}
+            position="Divisi Humas"
+            major="Sistem Informasi"
+          />
+        </div>
+        <div data-aos="flip-left">
+          <CardAnggotaItem
+            name="Fadly Oktapriadi"
+            images={images.Fadly}
+            position="Divisi Humas"
+            major="Teknik Informatika"
+          />
+        </div>
       </article>
     </section>
   );

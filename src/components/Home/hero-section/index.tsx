@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <>
       <section className="relative min-h-[90vh] bg-white grid md:py-0 items-center grid-cols-1 gap-4 px-6 lg:px-16 2xl:px-72  place-items-center lg:grid-cols-2">
-        <article className="flex flex-col mt-10">
+        <article data-aos="fade-up-right" className="flex flex-col mt-10">
           <h1 className="text-2xl mb-2 uppercase text-primary font-semibold sm:text-3xl md:text-4xl 2xl:text-5xl ">
             KKM 01 Desa Panyabrangan
           </h1>
@@ -25,7 +25,10 @@ const HeroSection = () => {
           </p>
         </article>
         <article className="relative flex w-full h-full">
-          <div className="flex w-full flex-col  justify-center items-center">
+          <div
+            data-aos="fade-left"
+            className="flex w-full flex-col  justify-center items-center"
+          >
             <Image
               src={images.Group1}
               alt="hero"

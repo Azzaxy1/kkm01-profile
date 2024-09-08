@@ -6,7 +6,7 @@ const ProfileDesa = () => {
       <h1 className="text-3xl sm:text-4xl mb-6 font-medium text-primary">
         Profile Desa
       </h1>
-      <h4 className="text-sm font-normal md:text-base 2xl:text-xl">
+      <h4 className="text-sm font-normal md:text-base 2xl:text-xl typing-animation">
         <span className="font-medium text-secondary">Desa Panyabrangan</span>{" "}
         merupakan salah satu desa yang berada di wilayah Kecamatan Cikuesal,
         Kabupaten Serang.{" "}

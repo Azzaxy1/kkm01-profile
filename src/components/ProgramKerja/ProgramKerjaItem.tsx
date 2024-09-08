@@ -9,7 +9,11 @@ type ProgramKerjaItemProps = {
 
 const ProgramKerjaItem: React.FC<ProgramKerjaItemProps> = ({ item, index }) => {
   return (
-    <Card className="flex p-5 gap-0 md:gap-10 flex-col md:flex-row" radius="sm">
+    <Card
+      className="flex p-5 gap-0 md:gap-10 flex-col md:flex-row"
+      radius="sm"
+      data-aos={index % 2 === 0 ? "zoom-in-left" : "zoom-in-right"}
+    >
       <article className={`${index % 2 === 0 ? "md:order-2" : "md:order-1"}`}>
         <Image
           src={item.image}
