@@ -1,5 +1,5 @@
 import UMKM from "@/assets/images/program-kerja/umkm.png";
-import Stunting from "@/assets/images/program-kerja/stunting.png";
+import Stunting from "@/assets/images/program-kerja/posyandu.png";
 import GreenBoost from "@/assets/images/program-kerja/greenboost.jpg";
 import BibitPohon from "@/assets/images/program-kerja/bibit-pohon1.jpg";
 import Perpustakaan from "@/assets/images/program-kerja/perpustakaan.jpg";
