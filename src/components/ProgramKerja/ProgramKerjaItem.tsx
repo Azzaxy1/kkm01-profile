@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { ProgramKerjaItem as ProgramKerjaItemType } from "@/type/ProgramKerja";
-import { Card, CardBody, Divider, Link } from "@nextui-org/react";
+import { Card, CardBody, Divider } from "@nextui-org/react";
+import Link from "next/link";
+import { FiExternalLink } from "react-icons/fi";
 
 type ProgramKerjaItemProps = {
   item: ProgramKerjaItemType;
@@ -29,11 +31,11 @@ const ProgramKerjaItem: React.FC<ProgramKerjaItemProps> = ({ item, index }) => {
         <Divider className="my-2" />
         <p className="line-clamp-3 md:line-clamp-4">{item.description}</p>
         <Link
-          showAnchorIcon
           href={`/program-kerja/${item.id}`}
-          className="underline"
+          className="underline text-primary flex items-center gap-1"
         >
           Baca Selengkapnya
+          <FiExternalLink width={100} />
         </Link>
       </CardBody>
     </Card>
