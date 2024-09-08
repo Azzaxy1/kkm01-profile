@@ -17,7 +17,21 @@ import PetaDesa from "@/assets/images/program-kerja/peta-desa.png";
 import FotoBersama from "@/assets/images/foto-bersama.jpg";
 import LesKomputer from "@/assets/images/program-kerja/les-komputer.jpg";
 
+import PaAde from "@/assets/images/struktur-anggota/pa-ade.png";
+import Jaka from "@/assets/images/struktur-anggota/jaka.png";
 import Azis from "@/assets/images/struktur-anggota/Azis.png";
+import Epi from "@/assets/images/struktur-anggota/epi.png";
+import Heni from "@/assets/images/struktur-anggota/heni.png";
+import Della from "@/assets/images/struktur-anggota/della.png";
+import Daus from "@/assets/images/struktur-anggota/daus.png";
+import Ihsan from "@/assets/images/struktur-anggota/ihsan.png";
+import Rija from "@/assets/images/struktur-anggota/rija.png";
+import Dita from "@/assets/images/struktur-anggota/dita.png";
+import Rico from "@/assets/images/struktur-anggota/rico.png";
+import Adit from "@/assets/images/struktur-anggota/adit.png";
+import Aji from "@/assets/images/struktur-anggota/aji.png";
+import Sandy from "@/assets/images/struktur-anggota/sandy.png";
+import Fadly from "@/assets/images/struktur-anggota/fadly.png";
 import Rifki from "@/assets/images/struktur-anggota/sakoi.png";
 
 const images = {
@@ -39,6 +53,20 @@ const images = {
   LesKomputer,
   Azis,
   Rifki,
+  Jaka,
+  Epi,
+  Heni,
+  PaAde,
+  Della,
+  Daus,
+  Rija,
+  Dita,
+  Rico,
+  Ihsan,
+  Adit,
+  Aji,
+  Sandy,
+  Fadly,
 };
 
 export default images;

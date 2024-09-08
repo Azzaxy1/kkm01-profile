@@ -1,6 +1,5 @@
 import CardAnggotaItem from "@/components/StrukturAnggota/CardAnggotaItem";
 import React from "react";
-import { listAnggota } from "@/libs/utils";
 import images from "@/assets/image";
 import { Divider } from "@nextui-org/react";
 
@@ -15,7 +14,7 @@ const StrukturAnggotaPage = () => {
       <article className="flex mb-8 justify-center items-center">
         <CardAnggotaItem
           name="Dr. Ade Sumiardi, S.Si., M.Si"
-          images={images.Azis}
+          images={images.PaAde}
           position="DPL"
         />
       </article>
@@ -24,7 +23,7 @@ const StrukturAnggotaPage = () => {
         <div className="order-3 md:order-1">
           <CardAnggotaItem
             name="Epi Safitri"
-            images={images.Azis}
+            images={images.Epi}
             position="SEKRETARIS"
             major="Teknik Informatika"
           />
@@ -32,7 +31,7 @@ const StrukturAnggotaPage = () => {
         <div className="order-1 md:order-2">
           <CardAnggotaItem
             name="M. Jaka Agus Setiawan"
-            images={images.Azis}
+            images={images.Jaka}
             position="KETUA"
             major="Teknik Informatika"
           />
@@ -48,7 +47,7 @@ const StrukturAnggotaPage = () => {
         <div className="order-4 md:order-4">
           <CardAnggotaItem
             name="Siti Haniawati"
-            images={images.Azis}
+            images={images.Heni}
             position="Bendahara"
             major="Administrasi Kesehatan"
           />
@@ -58,19 +57,19 @@ const StrukturAnggotaPage = () => {
       <article className="flex my-8  justify-around gap-8 md:gap-0 items-center flex-wrap">
         <CardAnggotaItem
           name="Ahmad Ali Firdaus"
-          images={images.Azis}
+          images={images.Daus}
           position="Divisi Acara"
           major="Teknik Industri"
         />
         <CardAnggotaItem
           name="Della Maulia Putri"
-          images={images.Azis}
+          images={images.Della}
           position="Divisi Acara"
           major="Pendidikan Akuntansi"
         />
         <CardAnggotaItem
           name="Ihsanuddin Adi Pangestu"
-          images={images.Azis}
+          images={images.Ihsan}
           position="Divisi Acara"
           major="Teknik Informatika"
         />
@@ -79,25 +78,25 @@ const StrukturAnggotaPage = () => {
       <article className="flex my-8 justify-center md:justify-between gap-8 md:gap-0 items-center flex-wrap">
         <CardAnggotaItem
           name="Rija Baihaqi"
-          images={images.Azis}
+          images={images.Rija}
           position="Divisi PDD"
           major="Pendidikan Pancasila"
         />
         <CardAnggotaItem
           name="Dita Della"
-          images={images.Azis}
+          images={images.Dita}
           position="Divisi PDD"
           major="Sistem Informasi"
         />
         <CardAnggotaItem
           name="Rico Triyantara"
-          images={images.Azis}
+          images={images.Rico}
           position="Divisi PDD"
           major="Teknik Industri"
         />
         <CardAnggotaItem
           name="Aditya Wardhono P"
-          images={images.Azis}
+          images={images.Adit}
           position="Divisi PDD"
           major="Teknik Industri"
         />
@@ -106,7 +105,7 @@ const StrukturAnggotaPage = () => {
       <article className="flex my-8 justify-center md:justify-between gap-8 md:gap-0 flex-wrap">
         <CardAnggotaItem
           name="Aji Eka Saputra"
-          images={images.Azis}
+          images={images.Aji}
           position="Divisi Humas"
           major="Teknik Sipil"
         />
@@ -118,13 +117,13 @@ const StrukturAnggotaPage = () => {
         />
         <CardAnggotaItem
           name="Sandy Ruliandy"
-          images={images.Azis}
+          images={images.Sandy}
           position="Divisi Humas"
           major="Sistem Informasi"
         />
         <CardAnggotaItem
           name="Fadly Oktapriadi"
-          images={images.Azis}
+          images={images.Fadly}
           position="Divisi Humas"
           major="Teknik Informatika"
         />

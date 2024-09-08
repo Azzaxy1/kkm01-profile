@@ -23,7 +23,7 @@ const CardAnggotaItem: React.FC<CardAnggotaItemProps> = ({
   major,
 }) => {
   return (
-    <Card className="w-[280px] md:max-w-[270px] flex justify-center items-center">
+    <Card className="w-[300px] md:max-w-[270px] flex justify-center items-center">
       <CardHeader className="text-center flex justify-center items-center">
         <h1 className="text-2xl uppercase sm:text-2xl text-secondary font-semibold">
           {position}

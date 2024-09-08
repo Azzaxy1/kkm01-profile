@@ -46,7 +46,7 @@ const FullScreenCarousel: React.FC = () => {
                 src={src}
                 alt={`Slide ${index + 1}`}
                 layout="fill"
-                objectFit="cover"
+                // objectFit="cover"
                 quality={100}
               />
             </div>

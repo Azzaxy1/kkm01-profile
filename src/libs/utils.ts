@@ -5,7 +5,7 @@ const listAnggota: ListAnggotaType = [
   {
     id: 1,
     name: "Dr. Ade Sumiardi, S.Si., M.Si",
-    image: images.WakilKetua,
+    image: images.Azis,
     major: "Teknik Informatika",
   },
 ];
