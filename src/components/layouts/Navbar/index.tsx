@@ -32,11 +32,20 @@ export default function Nav() {
     return `/${item.toLowerCase().replace(/\s+/g, "-")}`;
   };
 
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className="bg-secondary sticky">
+    <Navbar
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      className="bg-secondary sticky"
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMenuOpen}
           className="sm:hidden text-white"
         />
         <NavbarBrand>
@@ -84,6 +93,7 @@ export default function Nav() {
                   "text-primary underline underline-offset-4 font-bold"
                 }`}
                 href={path}
+                onClick={handleMenuItemClick}
               >
                 {item}
               </Link>

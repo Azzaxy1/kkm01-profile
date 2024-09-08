@@ -27,7 +27,7 @@ const HeroSection = () => {
         <article className="relative flex w-full h-full">
           <div
             data-aos="fade-left"
-            className="flex w-full flex-col  justify-center items-center"
+            className="flex w-full flex-col z-10  justify-center items-center"
           >
             <Image
               src={images.Group1}
